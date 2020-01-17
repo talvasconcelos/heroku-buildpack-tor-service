@@ -1,10 +1,6 @@
-# I'm not maintaining this. Use a fork.
+# Tor Buildpack for Heroku
 
-* [this one](https://github.com/hernanex3/heroku-buildpack-tor) has caching and integrity checking. There are others.
-
-# Tor Hidden Service Buildpack for Heroku
-
-This buildpack sets up a Tor hidden service for your app on Heroku.
+This buildpack sets up a Local Tor client for your app on Heroku.
 
 ## Setup
 
@@ -14,7 +10,7 @@ If you have a Go app, for instance, deploy it as normal.
 Then:
 
 ```bash
-$ heroku buildpacks:add https://github.com/apg/heroku-buildpack-tor.git
+$ heroku buildpacks:add https://github.com/skillzilla/heroku-buildpack-tor-service.git
 ```
 
 With the buildpack installed, you'll need to modify your Procfile such that
