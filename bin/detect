@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+echo "Tor local client"
+exit 0
