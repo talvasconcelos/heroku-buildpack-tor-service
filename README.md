@@ -10,7 +10,7 @@ If you have a Go app, for instance, deploy it as normal.
 Then:
 
 ```bash
-$ heroku buildpacks:add https://github.com/skillzilla/heroku-buildpack-tor-service.git
+$ heroku buildpacks:add https://github.com/talvasconcelos/heroku-buildpack-tor-service.git
 ```
 
 With the buildpack installed, you'll need to modify your Procfile such that
